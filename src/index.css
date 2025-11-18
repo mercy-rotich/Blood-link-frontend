@@ -1,7 +1,4 @@
-/* src/index.css - Fixed Version */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 @layer base {
   * {
