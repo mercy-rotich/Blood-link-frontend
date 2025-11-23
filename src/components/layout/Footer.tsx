@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../../constants';
 
-export const Footer: React.FC = () => {
+const Footer: React.FC = () => {
   const footerSections = [
     {
       title: 'For Healthcare Providers',
@@ -106,3 +106,5 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
+
+export default Footer

@@ -6,7 +6,7 @@ import { useTheme } from '../../hooks/useTheme';
 import { ROUTES } from '../../constants';
 import { cn } from '../../utils/cn';
 
-export const Navbar: React.FC = () => {
+const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -105,3 +105,5 @@ export const Navbar: React.FC = () => {
     </nav>
   );
 };
+
+export default Navbar
